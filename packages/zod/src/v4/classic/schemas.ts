@@ -5,7 +5,9 @@ import * as checks from "./checks.js";
 import * as iso from "./iso.js";
 import * as parse from "./parse.js";
 
-///////////////////////////////////////////
+////// Use official UUID type definition from TypeScript's DOM library
+export type UUID = `${string}-${string}-${string}-${string}-${string}`;
+///////////////////////////////////////
 ///////////////////////////////////////////
 ////////////                   ////////////
 ////////////      ZodType      ////////////
